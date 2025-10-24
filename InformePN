@@ -1,0 +1,41 @@
+🏠 Proyecto: Propiedades Nievas – Sistema Inmobiliario
+📋 Descripción general
+
+Propiedades Nievas es un sistema web desarrollado como parte de un proyecto académico y profesional orientado al rubro inmobiliario.
+El objetivo principal es digitalizar la gestión de propiedades, simplificando tareas como el registro, búsqueda y administración de inmuebles, además de incorporar autenticación de usuarios y manejo de imágenes.
+
+El sistema busca ofrecer una interfaz intuitiva tanto para administradores como para clientes, optimizando la gestión de datos mediante una arquitectura moderna basada en Node.js, Express y MongoDB.
+
+⚙️ Tecnologías utilizadas
+Backend: Node.js + Express
+Base de datos: MongoDB (Mongoose ODM)
+Frontend: HTML5, CSS3, JavaScript y TailwindCSS
+Autenticación: Bcrypt + JWT (JSON Web Tokens)
+Subida de archivos: Multer (para manejo de imágenes de propiedades)
+Notificaciones: Nodemailer (envío de correos electrónicos automáticos)
+Middleware: Cookie-Parser, Body-Parser, CORS
+Entorno: Variables de entorno con dotenv
+
+🧩 Funcionalidades principales
+
+Gestión de usuarios:
+-Registro e inicio de sesión de administradores y clientes.
+-Validación de credenciales y manejo de sesiones seguras.
+
+Gestión de propiedades:
+-Alta, baja y modificación (ABM) de propiedades.
+-Carga de múltiples imágenes por propiedad.
+-Control de duplicados (no se permite registrar una propiedad ya existente).
+
+Panel administrativo:
+-Listado completo de propiedades.
+-Edición visual y eliminación directa desde el panel.
+-Control del stock de inmuebles disponibles.
+
+Gestión de tipos y operaciones:
+-Tipos de propiedades (casa, departamento, terreno, etc.).
+-Tipos de operaciones (venta, alquiler, permuta).
+
+Alertas y validaciones:
+-Mensajes de error o confirmación en tiempo real.
+-Validación de formularios antes de guardar cambios.
